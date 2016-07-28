@@ -1,0 +1,48 @@
+.modal-container {
+	background-image: url(../images/transparent.png);
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	z-index: 100;
+	display: none;
+}
+ 
+.modals {
+	width: 50%;
+	background-color: #fff;
+	margin-left: 25%;
+	margin-top: 50px;
+	box-shadow: 0px 0px 15px #000;
+	border: solid 15px #fff;
+	position: relative;
+}
+
+.modals img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.exitbut {
+	position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 27px;
+    height: 25px;
+    background-color: #fff;
+    text-align: center;
+    z-index: 1000;
+    border-radius: 8px;
+    border: dashed  #000 thin;
+    cursor: pointer;
+}
+
+
+img:hover{
+	cursor: pointer;
+}

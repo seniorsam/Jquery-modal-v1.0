@@ -1,1 +1,0 @@
-# Jquery-modal-v1.0
